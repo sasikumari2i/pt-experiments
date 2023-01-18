@@ -9,9 +9,11 @@ pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
 pipe = pipe.to("cuda")
 
 PROMPT = (
-    "Young boy with a rough and muddy hair with soccer uniform kicking a football"
-    " into the soccer nets where a beautifull boy tries to stop the football from"
-    " the goal anime"
+    "nekopara fantastically detailed reflecting eyes modern anime style art" 
+    " cute detailed ears cat girl neko dress portrait shinkai makoto vibrant"
+    " Studio ghibli kyoto animation hideaki anno Sakimichan Stanley Artgerm" 
+    " Lau Rossdraws James Jean Marc Simonetti elegant highly detailed digital"
+    " painting artstation pixiv flower"
 )
 N_PROMPT = (
     "canvas frame, cartoon, 3d, ((disfigured)), ((bad art)),"
