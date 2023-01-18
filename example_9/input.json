@@ -1,0 +1,19 @@
+{
+  "alpha": 0.5,
+  "num_inference_steps": 80,
+  "seed_image_id": "og_beat",
+
+  "start": {
+    "prompt": "Sunrise DJ Set to hard synth solo",
+    "seed": 123,
+    "denoising": 0.50,
+    "guidance": 7.0
+  },
+
+  "end": {
+    "prompt": "Detroit Rap to Jazz",
+    "seed": 71,
+    "denoising":0.50,
+    "guidance": 7.0
+  }
+}
