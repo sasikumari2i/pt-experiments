@@ -1,0 +1,19 @@
+{
+  "alpha": 0,
+  "num_inference_steps": 80,
+  "seed_image_id": "og_beat",
+
+  "start": {
+    "prompt": "church bells",
+    "seed": 42,
+    "denoising": 0.75,
+    "guidance": 7.0
+  },
+
+  "end": {
+    "prompt": "electronic beats",
+    "seed": 123,
+    "denoising":0.75,
+    "guidance": 7.0
+  }
+}
