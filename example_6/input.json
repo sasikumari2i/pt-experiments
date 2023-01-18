@@ -1,0 +1,19 @@
+{
+  "alpha": 0.75,
+  "num_inference_steps": 60,
+  "seed_image_id": "og_beat",
+
+  "start": {
+    "prompt": "Detroit Rap",
+    "seed": 123,
+    "denoising": 0.85,
+    "guidance": 7.0
+  },
+
+  "end": {
+    "prompt": "Jazz",
+    "seed": 71,
+    "denoising":0.85,
+    "guidance": 7.0
+  }
+}
