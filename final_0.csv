@@ -1,0 +1,184 @@
+document,questions
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What will the forward pass for a particular op produce?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What may not be representable in ""float16""?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",Why will the update for the corresponding parameters be lost?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What does ""gradient scaling"" do to prevent underflow?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What multiplies the network's loss(es) by a scale factor and invokes a backward pass?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",Gradients flowing backward through the network are then scaled by the same factor?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What should be unscaled before the optimizer updates the parameters?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What should not interfere with the learning rate?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",Get_backoff_factor() Returns a Python float containing what?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",get_growth_factor(or grow_int) Returns the growth interval (or growth interval) in what Python int?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What returns a Python int containing the growth interval?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What Returns the current scale, or 1.0 if scaling is disabled?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What causes a CPU-GPU sync?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What returns a bool indicating whether this instance is enabled?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is the scaler state?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is a no-op if this instance is disabled?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is an object returned from a call to?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What does scale(outputs) Multiplies by?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What returns scaled outputs?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","If this instance of ""GradScaler"" is not enabled, outputs are returned unmodified?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What does set_backoff_factor(new_factor) do?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is the value to use as the new scale?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is the value to use as the new scale backoff factor?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What does set_growth_factor do?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is the value to use as the new growth interval?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is set_growth_interval?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What returns the state of the scaler as a ""dict""?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",How many entries does state_dict() contain?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is the name of the Python float that contains the current scale?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is the name of the Python float containing the current scale?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What does the current growth factor contain?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What float contains the current backoff factor?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is a Python int containing the current growth interval?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is a Python int containing the number of recent consecutive unskipped steps?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","If this instance is not enabled, returns an empty what?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What should be called after ""update()""?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What should you call if you want to checkpoint the scaler's state after a particular iteration?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What does ""update()"" carry out?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","How many operations does ""step()"" perform?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What operation does ""unscale_(optimizer)"" internal invoke?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What was explicitly called for earlier in the iteration?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","As part of the ""unscale_()"", gradients are checked for what?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","If no inf/NaN gradients are found, what is invoked?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is skipped to avoid corrupting the params?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What are forwarded to ""optimizer.step()""?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",Returns the return value of what?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is the name of the Optimizer that applies the gradients?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What are the names of the arguments that can be used?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What does unscale_(optimizer) divide the optimizer's gradient tensors by?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is optional?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What do you need to modify or inspect between the backward pass(s) and ""step()""?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","If ""unscale_()"" is not called explicitly, gradients will be unscaled automatically during what?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is used to enable clipping of unscaled gradients?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What does ""unscale_()"" do?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What does scaler.scale(loss).backward() do?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is the name of the tool that updates the scale factor?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What does update(new_scale=None) do?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","If any optimizer steps were skipped, the scale is multiplied by what to reduce it?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16","What does ""growth_factor"" do to increase the scale?"
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",Passing what sets the new scale value manually?
+"If the forward pass for a particular op has ""float16"" inputs, the
+backward pass for that op will produce ""float16"" gradients. Gradient
+values with small magnitudes may not be representable in ""float16",What is used to fill GradScaler's internal scale tensor?

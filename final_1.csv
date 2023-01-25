@@ -1,0 +1,65 @@
+document,questions
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_",What provides convenience methods for mixed precision?
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_","What does ""torch.float32"" mean?"
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_","How do some ops, like linear layers and convolutions, perform in ""lower_precision_fp"""
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_","What is often required the dynamic range of ""float32""?"
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_",Mixed precision tries to match each op to its appropriate what?
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_","What is the normal mixed precision training with datatype of ""torch.float16"" with?"
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_",How are Torch.autocast and Turch.cuda.amp.GradScaler modular?
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_","On what CPU does ""automatic mixed precision training/inference"" on?"
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_","For CUDA and CPU, APIs are provided separately?"
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_","What is the equivalent of ""torch.autocast(""cuda"", args...)""?"
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_","For CPU, only lower precision floating point datatype is supported for now?"
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_",What type of behavior does CUDA Op-Specific Behavior have?
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_",What is the default input type for binary_cross_entropy_with_logits?
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_",What do CPU Op-Specific Behavior do?
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_",What can CPU Ops that can autocast to?
+"""torch.amp"" provides convenience methods for mixed precision, where
+some operations use the ""torch.float32"" (""float"") datatype and other
+operations use lower precision floating point datatype
+(""lower_",* CPU Ops that promote to the widest input type?

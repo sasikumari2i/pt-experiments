@@ -1,0 +1,186 @@
+document,questions
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What types of ops are not eligible?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",Out-of-place ops and Tensor methods are what?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",In-place variants and calls that explicitly supply what are allowed in autocast-enabled regions?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What can autocast in an autocast-enabled region?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What can't autocast?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","For best performance and stability, prefer out-of-place ops in what regions?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",Ops called with an explicit what are not eligible?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","What does eligible produce that respects the ""dtype"" argument?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What describes the behavior of eligible ops in autocast- enabled regions?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What happens if functions are exposed in multiple namespaces?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",Ops not listed below do not go through what?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What may still change the type in which unlisted ops run?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",Which unlisted ops run if they're downstream from autocasted ops?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","If an op is unlisted, we assume it's numerically stable in what?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","""GRUCell"", ""linear"", ""LSTMCell,"" ""mm"", ""mv"", ""prelu"", ""RNNCell""?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","""binary_cross_entropy_with_logits"", ""acos"", ""cdist"", ""cosine_similarity"", ""cross_enttropy"", ""cumprod,"" ""cumsum"", ""dist"" and ""erfinv"" are examples of what?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What do these ops take multiple inputs and require that the inputs' dtypes match?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","What is the op run in if all inputs are ""float16""?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","What does autocast cast all inputs to if any of the inputs is ""float32""?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",Which ops natively promote inputs without autocasting's intervention?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","What ops not listed here (e.g., binary ops like ""add"") do?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","What does autocasting do when inputs are a mixture of ""float16"" and ""float32""?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","What does the backward passes of ""torch.nn.functional.binary_cross_entropy()"" produce?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","In autocast-enabled regions, the forward input may be what?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","What does ""binary_cross_entropy"" and ""BCELoss"" raise an error in?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",Many models use a sigmoid layer right before what?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What is safe to autocast?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What do ops always go through?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What are ops invoked as part of a function or as a method?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",By what means do unlisted ops run?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What type of ops may be changed if they're downstream from autocasted ops?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","If you believe an unlisted op is numerically unstable in ""bfloat16"", please file an issue what?"
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What do these ops don't require a particular?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What do these ops not require for stability?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What does autocast cast all inputs to?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac",What do bfloat16 and float32 ops run in?
+"Ops that run in ""float64"" or non-floating-point dtypes are not
+eligible, and will run in these types whether or not autocast is
+enabled.
+
+Only out-of-place ops and Tensor methods are eligible. In-plac","Run in ""float32"" and produce what output?"
